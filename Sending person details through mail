@@ -1,0 +1,16 @@
+# Importing sendpdf function
+# From pdf_mail Library
+from pdf_mail import sendpdf
+
+
+# Create on object of sendpdf function
+k = sendpdf("ashwinidhalabar123@gmail.com",
+            "ashwinidh82@gmail.com",
+            "Ashwinidh#12",
+            "pdf document",
+            "body of message",
+            "persond",
+            "C:/Users/admin/Desktop")
+
+#sending an email
+k.email_send()
